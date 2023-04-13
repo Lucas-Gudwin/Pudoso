@@ -8,5 +8,5 @@ docker run \
 -h node.js \
 -w /node \
 -v ${SCRIPTPATH}/:/node/ \
--p 80:2020 \
+-p 2020:2020 \
 node
